@@ -1,0 +1,21 @@
+#ifndef SYSTICK_CONFIG_H
+#define SYSTICK_CONFIG_H
+
+/**
+ *  SYSTICK_CLOCK_SOURCE options:
+ *  STK_AHB_DIV_8
+ *  STK_AHB
+*/
+#define SYSTICK_CLOCK_SOURCE SSTK_AHB_DIV_8
+
+
+/**
+ *  SYSTICK_ENABLE_INT options:
+ *  STK_DISABLE
+ *  STK_ENABLE
+*/
+
+#define SYSTICK_ENABLE_INT STK_DISABLE
+
+
+#endif
